@@ -1,20 +1,15 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
 import dm from './dm'
 
-Vue.use(Vuex)
+const state = {
 
-export default new Vuex.Store({
-  state: {
+}
+const mutations = {
 
-  },
-  mutations: {
+}
+const actions = {
 
-  },
-  actions: {
+}
 
-  },
-  modules:{
-    dm
-  }
-})
+export default {
+  dm
+}

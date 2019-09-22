@@ -1,20 +1,20 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-import qsmy from './qsmy'
+import qsmyDm from './qsmy/dm'
 
 Vue.use(Vuex)
 
 export default new Vuex.Store({
-  // state: {
+  state: {
 
-  // },
-  // mutations: {
+  },
+  mutations: {
 
-  // },
-  // actions: {
+  },
+  actions: {
 
-  // },
+  },
   modules:{
-    qsmy
+    qsmyDm
   }
 })
